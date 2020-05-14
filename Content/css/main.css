@@ -10,7 +10,7 @@ body{
 }
 
 .landing{
-    height: 85vh;
+    height: 95vh;
     position: relative;
 }
 
@@ -45,5 +45,24 @@ body{
 }
 
 section.about-me{
+    position: relative;
     background-color: #7510F7;
+    color: #fff;
+    padding: 50px;
+}
+.about-me .title h1{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-me .description{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.about-me .description p{
+    max-width: 100%;
+    text-align: center;
 }
