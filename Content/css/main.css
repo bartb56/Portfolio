@@ -6,6 +6,7 @@
 body{
     background-color: #F3F3F3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20000px;
 }
 
 .landing{
@@ -41,4 +42,8 @@ body{
     left: 50%;
     transform: translateX(-50%);
     top: 18%;
+}
+
+section.about-me{
+    background-color: #7510F7;
 }
