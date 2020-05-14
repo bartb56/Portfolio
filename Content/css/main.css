@@ -1,4 +1,44 @@
 /*  */
+*{
+    margin: 0;
+}
+
 body{
     background-color: #F3F3F3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing{
+    height: 85vh;
+    position: relative;
+}
+
+.landing .title{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+}
+
+.landing .mouse{
+    position: absolute;
+    width: 25px;
+    border-radius: 22px;
+    height: 50px;
+    border: 1px solid #000;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.landing .mouse::before{
+    content: "";
+    position: absolute;
+    width: 1.3px;
+    height: 15px;
+    background-color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 18%;
 }
